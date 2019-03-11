@@ -8,7 +8,7 @@ echo "Target branch: $TRAVIS_BRANCH"
 if [ "$TRAVIS_PULL_REQUEST" != "$NOT_PR" ]; then
   echo "Merging PR into $TRAVIS_BRANCH"
 
-  git remote set-url origin https://$GITHUB_TOKEN@github.com/barlingo-app/ci-cd-test.git
+  git remote set-url origin https://$GITHUB_TOKEN@github.com/$GITHUB_REPO.git
 
   git fetch origin
   git checkout $TRAVIS_PULL_REQUEST_BRANCH
