@@ -1,8 +1,11 @@
 {
   "name": "test-fe",
-  "version": "0.0.2-SNAPSHOT",
+  "version": "0.0.1-SNAPSHOT",
   "private": true,
   "dependencies": {
+    "dotenv": "^6.2.0",
+    "dotenv-expand": "^4.2.0",
+    "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
